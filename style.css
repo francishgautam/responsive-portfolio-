@@ -1,0 +1,521 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* CODE */
+
+body{
+    display: flex;
+}
+
+.sidebar{
+    width: 22.18rem;
+    background-color: #F7F9FC;
+}
+
+.profile-image{
+    width: 100%;
+    margin-bottom: 32.32px;
+}
+
+.header{
+    padding-left: 48.48px;
+    padding-right: 48.48px;
+    padding-bottom: 32.32px;
+}
+
+.name{
+    font-family: Outfit;
+    color: #2E2E48;
+    font-weight: 500;
+    font-size: 32.32px;
+}
+
+.role{
+    padding-bottom: 8.08px;
+    font-weight: 500;
+    font-size: 24.24px;
+    background-image: linear-gradient(to right, #A478E8, #516CF7); /* Define your gradient colors */
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+}
+
+.quotes-block{
+    display: flex;
+}
+
+.quote-left{
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.quotes{
+    padding-left: 48.48px;
+    padding-right: 48.48px;
+}
+
+.quote-detail{
+    padding-bottom: 4.04px;
+    font-size: 18.18px;
+}
+
+
+.name2{
+    color: #79819A;
+    font-weight: 400;
+    font-size: 12.12px;
+    padding-left: 24.25px;
+}
+
+.span1{
+    display: inline-block;
+    width: 259.03px;
+    height: 1.01px; 
+    background-color: #E2E6EE;
+    justify-content: center;
+    margin-top: 32.32px;
+    margin-bottom: 32.32px;
+    margin-left: 48.48px;
+}
+
+.details{
+    padding-left: 48.48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16.16px;
+
+}
+
+.details-block{
+    display: flex;
+    gap: 9px;
+}
+
+.detail-title{
+    margin-bottom: 4.04px;
+    color: #79819A;
+    font-weight: 400;
+    font-size: 12.12px;
+    font-family: sans-serif;
+}
+
+.detail-description{
+    color: #47516B;
+    font-size: 14.14px;
+    font-weight: 500;
+}
+
+.socials{
+    padding-left: 48.48px;
+}
+
+.social-block{
+    display: flex;
+}
+
+.social-title{
+    color: #79819A;
+    margin-bottom: 17px;
+
+}
+
+/* Body section */
+
+.container{
+    margin-left: 96.97px;
+    margin-right: 48.48px;
+    margin-top: 64.64px;
+}
+
+.latest-projects-title{
+    font-size: 24.24px;
+    margin-bottom: 32.32px;
+}
+
+.latest-projects{
+    display: flex;
+    gap: 8.08px;
+    /* padding-left: 48.48px; */
+    padding-bottom: 48.48px;
+}
+
+.inner-1{
+    background-color: #F7F9FC;
+    display: flex;
+    gap: 16.16px;
+    padding-top: 24.24px;
+    padding-left: 24.24px;
+    padding-right: 24.24px;
+    padding-bottom: 17.78px;
+}
+
+.hyperlink-section{
+    background-color: #F7F9FC;
+    padding-left: 24.24px;
+    padding-right: 24.24px;
+    padding-bottom: 24.24px;
+    display: flex;
+    gap: 12.12px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.experience-title{
+    font-weight: 500;
+    font-size: 24.24px;
+    padding-bottom: 32.32px;
+}
+
+.dot{
+    width: 6.31px;
+    height: 6.31px;
+    padding-right: 8.96px;
+
+}
+
+.experience-details{
+    display: flex;
+    padding-bottom: 8.08px;
+}
+
+.experience-block{
+    display: flex;
+}
+
+.f1{
+    display: flex;
+}
+
+.f1>img{
+    padding-left: 6.57px;
+    padding-right: 6.57px;
+    width: 7.07px;
+    height: 9.09px;
+}
+
+.f1>p{
+    font-size: 10.1px;
+    color: #47516B;
+}
+
+.f1>p2{
+    font-size: 10.1px;
+    color: #79819A;
+}
+
+.f2{
+    display: flex;
+    gap: 16.16px;
+}
+
+.experience-name{
+    color: #79819A;
+    font-size: 12.12px;
+    padding-bottom: 4.04px;
+}
+
+.experience-company{
+    color: #2E2E48;
+    font-size: 14.14px;
+    font-weight: 500;
+}
+
+.experience-brief{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-block{
+    display: flex;
+    gap: 8.08px;
+}
+
+.experience-individual{
+    width: 15.15rem;
+}
+
+.experience-description{
+    margin-left: 6.14rem;
+    margin-right: 48.48px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 16.16px;
+    padding-bottom: 52.36px;
+}
+
+.education{
+    margin-right: 48.48px;
+}
+
+.education-name{
+    display: flex;
+    gap: 15.74px;
+    width: 100%;
+    background-color: #F7F9FC;
+    padding-top: 16.16px;
+    padding-left: 24.24px;
+    padding-right: 24.24px;
+    padding-bottom: 16.16px;
+    border-radius: 10px;
+    height: 122.91px;
+    align-items: center;
+    margin-bottom: 48.48px;
+}
+
+.education-task{
+    display: flex;
+    flex-direction: column;
+    gap: 2.02px;
+}
+
+.education-line{
+    display: flex;
+    gap: 8.08px;
+}
+
+.skills-block{
+    display: flex;
+    /* width: 698.99px; */
+    gap: 8.08px;
+    margin-right: 48.48px;
+    height: 83.65px;
+    margin-bottom: 48.48px;
+}
+
+.d1{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16.16px;
+    gap: 8.08px;
+}
+
+.d1>p{
+    font-weight: 500;
+    font-size: 14.14px;
+}
+
+.art{
+    width: 16.16px;
+    height: 16.16px;
+}
+
+.span-horizontal{
+    display: inline-block;
+    width: 1.01px;
+    height: 51.32px; 
+    background-color: #E2E6EE;
+    justify-content: center;
+}
+
+.d2{
+    width: 26%;
+    display: flex;
+    align-items: center;
+    padding-top: 23.32px;
+    padding-bottom: 23.32px;
+    padding-left: 16.16px;
+    padding-right: 16.16px;
+    gap: 8.08px;
+    background-color: #F7F9FC;
+    font-weight: 500;
+    color: #9251F7;
+}
+
+.d3{
+    width: 18%;
+    align-content: center;
+    padding-top: 23.32px;
+    padding-bottom: 23.32px;
+    padding-left: 16.16px;
+    padding-right: 16.16px;
+    background-color: #F7F9FC;
+    font-weight: 500;
+    color: #9251F7;
+}
+
+li{
+    list-style-type: disc;
+}
+
+.d4{
+    width: 18%;
+    padding-top: 14.32px;
+    padding-bottom: 14.32px;
+    padding-left: 30px;
+    padding-right: 4.04px;
+    align-content: center;
+    background-color: #F7F9FC;
+    font-weight: 500;
+    color: #9251F7;
+}
+
+.d5{
+    width: 11%;
+    align-content: center;
+    background-color: #F7F9FC;
+    padding-left: 16.16px;
+    padding-right: 16.16px;
+    padding-top: 23.32px;
+    padding-bottom: 23.32px;
+    font-weight: 500;
+    color: #9251F7;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 16.16px;
+}
+
+.span3{
+    display: inline-block;
+    width: 56.42px;
+    height: 1.01px; 
+    background-color: #E2E6EE;
+    justify-content: center;
+}
+
+.dend{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tools-block{
+    display: flex;
+    flex-direction: column;
+    gap: 8.08px;
+    margin-bottom: 67.83px;
+
+}
+
+.tools-block-split{
+    display: flex;
+    gap: 8.08px;
+    margin-right: 48.48px;
+}
+
+.individual-tools{
+    background-color: #F7F9FC;
+    /* padding:20px; */
+    /* width: 168.69px; */
+    width: 100%;
+    padding-top: 19.35px;
+    padding-bottom: 19.35px;
+    padding-left: 30.34px;
+    padding-right: 30.04px;
+}
+
+.individual-tools2{
+    background-color: #F7F9FC;
+    /* padding: 20px; */
+    width: 100%;
+    padding-top: 19.35px;
+    padding-bottom: 19.35px;
+    padding-left: 30.34px;
+    padding-right: 30.04px;
+}
+
+.individual-block{
+    background-color: #F7F9FC;
+
+}
+
+.mobile-section{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .sidebar{
+        display: none;
+    }
+    .container{
+        display: none;
+    }
+    .mobile-section{
+        display: block;
+    }
+
+    .details{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .details-block{
+        width: 46%;
+        padding-bottom: 48.48px;
+    }
+    .social-title{
+        margin-left: 48.48px;
+    }
+    .span1{
+        width: 300px;
+        padding-left: 48.48px;
+    }
+    .latest-projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience-block{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .education-line{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tools{
+        display: grid;
+        flex-wrap: wrap;
+
+    }
+}
