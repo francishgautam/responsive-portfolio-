@@ -323,7 +323,7 @@ body{
     border-radius: 10px;
     height: 122.91px;
     align-items: center;
-    margin-bottom: 48.48px;
+    /* margin-bottom: 48.48px; */
 }
 
 .education-task{
@@ -346,6 +346,7 @@ body{
 .education-line{
     display: flex;
     gap: 8.08px;
+    width: 200px;
 }
 
 .education-desscription{
@@ -579,11 +580,74 @@ li{
         flex-direction: column;
     }
 
+    .education{
+        margin-bottom: 48px;
+    }
+
     .tools{
         display: grid;
         flex-wrap: wrap;
 
     }
+
+    .tools-name{
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+
+    .tools-use{
+        font-family: sans-serif;
+        font-size: 10.1px;
+    }
+
+    .tools-block{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .individual-tools{
+        width: 50px;
+    }
+    .individual-tools2{
+        width: 90px;
+    
+    }
+
+    .sk-b{
+        display: flex;
+    }
+
+    .d2{
+        width: 200px;
+        margin-bottom: 8px;
+
+    }
+    .d3{
+        width: 200px;
+        margin-bottom: 8px;
+
+    }
+    .d4{
+        width: 200px;
+        margin-bottom: 8px;
+
+    }
+    .d1{
+        width: 130px;
+        margin-bottom: 8px;
+    }
+    .d5{
+        width: 200px;
+        margin-bottom: 8px;
+    }
+    .sk-b1{
+        margin-bottom: 20px;
+        display: flex;
+    }
+    .sk-b2{
+        margin-bottom: 40px;
+        display: flex;
+    }
+
 }
 
 .timeline{
